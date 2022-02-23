@@ -8,8 +8,8 @@ const Header = ({ toggleShowAddTask, btnText }) => {
       <h1>Task Tracker </h1>
       {location.pathname === "/" && (
         <Button
-          primary
           handleClick={toggleShowAddTask}
+          otherColors={btnText ? "red" : "green"}
           children={btnText ? "Close" : "Create Task"}
         />
       )}

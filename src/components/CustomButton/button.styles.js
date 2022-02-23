@@ -4,15 +4,18 @@ export const CustomButton = styled.button`
   margin: 5px;
   font-size: 15px;
   cursor: pointer;
-  padding: 10px 20px;
-  border-radius: 5px;
   font-family: inherit;
   text-decoration: none;
   display: inline-block;
-  color: ${({ primary }) => (primary ? "#fff" : "green")};
-  border: ${({ primary }) => (primary ? "none" : "1px solid green")};
+  padding: ${({ round }) => (round ? "20px" : "10px 20px")};
+  border-radius: ${({ round }) => (round ? "100%" : "5px")};
+  color: ${({ primary, otherColors }) =>
+    primary || otherColors ? "#fff" : "green"};
   width: ${({ width }) => (width ? width : "max-content")};
-  background: ${({ primary }) => (primary ? "green" : "transparent")};
+  border: ${({ primary, otherColors }) =>
+    primary || otherColors ? "none" : "1px solid green"};
+  background: ${({ primary, otherColors }) =>
+    primary ? "green" : otherColors ? otherColors : "transparent"};
 
   &:focus {
     outline: none;
