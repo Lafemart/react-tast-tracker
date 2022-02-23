@@ -1,11 +1,9 @@
-
-const Button = ({onAdd, text}) => {
+const Button = ({ handleClick, text }) => {
   return (
-    <button className = "btn"          
-    onClick={onAdd}    
-    >{text}</button>
-  )
-}
+    <button className="btn" onClick={handleClick}>
+      {text}
+    </button>
+  );
+};
 
-
-export default Button
+export default Button;
