@@ -1,22 +1,3 @@
 {
-  "tasks": [
-    {
-      "text": "see mentor ",
-      "day": "feb 5th 2022, 9pm",
-      "reminder": true,
-      "id": 2
-    },
-    {
-      "text": "Do exercise ",
-      "day": "Feb 4th 2022, 7am",
-      "reminder": true,
-      "id": 3
-    },
-    {
-      "text": "Laundry",
-      "day": "Sat 10am",
-      "reminder": false,
-      "id": 4
-    }
-  ]
+  "tasks": []
 }
