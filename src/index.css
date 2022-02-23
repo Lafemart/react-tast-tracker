@@ -18,7 +18,7 @@ body {
   border: 1px solid steelblue;
   padding: 30px;
   border-radius: 5px;
-  background: #2d2d2d ;
+  background: #eddcd9  ;
 }
 
 .header {
@@ -121,4 +121,13 @@ footer {
 
 .close{
   background: red;
+}
+
+.about{
+  border-radius: 10px;
+  margin: 4rem;
+  margin-bottom: -80px;
+  height: 20vh;
+  background: #f6e9d7;
+  text-align: center;
 }
