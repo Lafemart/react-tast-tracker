@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
   min-height: 300px;
   padding: 30px;
   border-radius: 5px;
-  background: #f2f2f2; 
+  background: #f2f2f2;
 }
 
 .header {
@@ -92,18 +92,24 @@ body {
 }
 
 .form-control-check {
-  display: flex;
+  /* justify-content: space-between; */
   align-items: center;
-  justify-content: space-between;
+  display: flex;
+  /* border: solid; */
 }
 
 .form-control-check label {
-  flex: 1;
+  padding: 0 1rem 0 0;
+}
+.input-container {
+  width: 3%;
+  display: flex;
+  height: max-content;
 }
 
-.form-control-check input {
-  flex: 2;
-  height: 20px;
+.input-container input {
+  padding: 0;
+  margin: 0;
 }
 
 footer {
@@ -111,24 +117,24 @@ footer {
   text-align: center;
 }
 
-.taskEmpty{
+.taskEmpty {
   text-align: center;
-  margin: 70px 0px 0px 0px ;
+  margin: 70px 0px 0px 0px;
   color: red;
   font-weight: 700;
   letter-spacing: 0.4rem;
 }
 
-.close{
+.close {
   background: red;
 }
 
-.about{
+.about {
   padding: 10px;
   border-radius: 10px;
   margin-top: 2rem;
   margin-bottom: -90px;
   height: 25vh;
-  background: #e2f0fa ;
+  background: #e2f0fa;
   text-align: center;
 }

@@ -33,34 +33,34 @@ const AddTask = ({ onAdd }) => {
       <div className="form-control">
         <label htmlFor="">Task</label>
         <input
-          type="text"
-          placeholder="add 
-            Task"
-          value={text}
           onChange={onChangeTextHandler}
+          placeholder="add Task"
+          value={text}
+          type="text"
           required
         />
       </div>
       <div className="form-control">
-        <label htmlFor="">Day and time</label>
+        <label htmlFor="">{"Select a date"}</label>
         <input
-          type="text"
-          placeholder="add Day & Time"
-          value={day}
           onChange={onChangeDayHandler}
+          placeholder="Select a date"
+          type="date"
+          value={day}
           required
         />
       </div>
       <div className="form-control form-control-check">
         <label htmlFor="">{"Set Reminder"}</label>
-        <input
-          type="checkbox"
-          checked={reminder}
-          value={reminder}
-          onChange={onChangeReminderHandler}
-        />
+        <div className="input-container">
+          <input
+            onChange={onChangeReminderHandler}
+            checked={reminder}
+            value={reminder}
+            type="checkbox"
+          />
+        </div>
       </div>
-      {/* <input className="btn btn-block" type="submit" value={"Save Task"} /> */}
       <Button primary width={"100%"}>
         {"Login"}
       </Button>
