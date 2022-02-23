@@ -167,14 +167,15 @@ body {
 /* end of checkbox  */
 
 footer {
-  margin-top: 30px;
+  padding: 2rem 0 0 0;
+  border: solid;
   text-align: center;
 }
 
 .taskEmpty {
   text-align: center;
   margin: 70px 0px 0px 0px;
-  color: red;
+  color: #00000070;
   font-weight: 700;
   letter-spacing: 0.4rem;
 }
