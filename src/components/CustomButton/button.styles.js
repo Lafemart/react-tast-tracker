@@ -4,6 +4,7 @@ export const CustomButton = styled.button`
   margin: 5px;
   font-size: 15px;
   cursor: pointer;
+  font-weight: bold;
   font-family: inherit;
   text-decoration: none;
   display: inline-block;

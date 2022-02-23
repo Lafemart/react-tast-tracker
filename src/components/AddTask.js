@@ -51,15 +51,16 @@ const AddTask = ({ onAdd }) => {
         />
       </div>
       <div className="form-control form-control-check">
-        <label htmlFor="">{"Set Reminder"}</label>
-        <div className="input-container">
+        <label class="label">
+          {"Set Reminder"}
           <input
-            onChange={onChangeReminderHandler}
-            checked={reminder}
-            value={reminder}
             type="checkbox"
+            value={reminder}
+            checked={reminder}
+            onChange={onChangeReminderHandler}
           />
-        </div>
+          <span class="checkmark"></span>
+        </label>
       </div>
       <Button primary width={"100%"}>
         {"Login"}
