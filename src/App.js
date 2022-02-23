@@ -8,8 +8,6 @@ import About from "./components/About";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
-
-
 const App = () => {
   const [showAddtask, setShowAddTask] = useState(false)
   const [tasks, setTasks] = useState([])

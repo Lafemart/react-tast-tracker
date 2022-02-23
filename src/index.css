@@ -55,7 +55,7 @@ body {
 }
 
 .task {
-  background: #f4f4f4;
+  background: #e2f0fa;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
@@ -124,10 +124,11 @@ footer {
 }
 
 .about{
+  padding: 10px;
   border-radius: 10px;
-  margin: 4rem;
-  margin-bottom: -80px;
-  height: 20vh;
-  background: #c8d8e4 ;
+  margin-top: 2rem;
+  margin-bottom: -90px;
+  height: 25vh;
+  background: #e2f0fa ;
   text-align: center;
 }
