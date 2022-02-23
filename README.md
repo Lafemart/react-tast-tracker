@@ -18,9 +18,3 @@ npm start
 ```
 npm run server
 ```
-
-### To build for production
-
-```
-npm run build
-```
