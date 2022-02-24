@@ -1,12 +1,16 @@
-import { Link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const [year, setYear] = React.useState("");
+  React.useEffect(() => setYear(new Date().getFullYear()), []);
+
   return (
     <footer>
-        <p>Copyright &copy; 2022</p>
-        <Link to="/about">About</Link>
+      <Link to="/about">About</Link>
+      <p>Copyright &copy; {year}</p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
